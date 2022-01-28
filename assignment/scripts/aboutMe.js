@@ -36,7 +36,7 @@ else{
   }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if( luckyNumber == 2 && adventurous ) {
+if( luckyNumber == 2 && adventurous ){
   console.log( 'Roll the dice!' );
 }
 // 15 - Write a conditional that console logs "I can have more pets!"
@@ -62,10 +62,10 @@ else{
 // console.log `mostPets` after the conditional has run.
 let mostPets;
 
-if( pets => friendsPets ) {
+if( pets => friendsPets ){
   mostPets = pets;
 }
-else if ( pets <= friendsPets ) {
+else if ( pets <= friendsPets ){
   mostPets = friendsPets;
 }
 console.log(mostPets);
