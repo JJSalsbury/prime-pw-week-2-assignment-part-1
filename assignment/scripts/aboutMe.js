@@ -65,7 +65,7 @@ let mostPets;
 if( pets => friendsPets ){
   mostPets = pets;
 }
-else if ( pets <= friendsPets ){
+else ( pets <= friendsPets ){
   mostPets = friendsPets;
 }
 console.log(mostPets);
@@ -97,4 +97,3 @@ switch (luckyNumber) {
 //note: if the value of adventurous was
 adventurous = (adventurous) ? 'Adventures are great!' : 'How about we stay home?';
 console.log(adventurous);
-//
